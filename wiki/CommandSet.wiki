@@ -1,4 +1,4 @@
-#labels Featured
+#labels Featured,MiniCMD命令集
 =MiniCMD 命令集=
 
 *abort*
@@ -210,6 +210,19 @@ find /s C:\;E:\|*.txt rm
 目前rm操作不支持删除目录（假设你查找的是目录时）
 
 支持使用通配符，具体看个人发挥。。。
+
+*install*
+install [-e] [SIS]
+  * 功能：静默安装单个SIS文件
+
+参数-e为可选，指定时安装到E盘（默认C盘）
+
+
+*uninstall*
+uninstall [UID]
+  * 功能：卸载一个程序
+
+通过给定的UID，静默卸载程序
 
 
 *跳转命令*
