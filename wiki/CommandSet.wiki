@@ -212,14 +212,17 @@ find /s C:\;E:\|*.txt rm
 支持使用通配符，具体看个人发挥。。。
 
 *install*
-install [-e] [SIS]
+
+install `[-e`] `[SIS`]
   * 功能：静默安装单个SIS文件
 
 参数-e为可选，指定时安装到E盘（默认C盘）
 
 
+
 *uninstall*
-uninstall [UID]
+
+uninstall `[UID`]
   * 功能：卸载一个程序
 
 通过给定的UID，静默卸载程序
